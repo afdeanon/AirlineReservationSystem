@@ -134,6 +134,6 @@ The system includes robust error handling for:
 
 ## Acknowledgments
 
-- Developed as part of software engineering coursework
+- Developed as part of software engineering (Object Oriented Design) coursework
 - Implements UML design principles and object-oriented programming concepts
 - Thanks to Dr. Yeung for project requirements
