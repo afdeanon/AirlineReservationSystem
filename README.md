@@ -2,14 +2,14 @@
 
 Java-based airline reservation system that manages individual and group reservations across First and Economy class seating.
 
-## 🛫 Overview
+## Overview
 
 This console-based application simulates a real-world airline reservation system with two service classes (First and Economy), supporting individual passenger bookings with seat preferences, group reservations with adjacent seating logic, and comprehensive reservation management features.
 
 ## Project Timeline
 September 2022 - November 2022
 
-## ✨ Features
+## Features
 
 ### Core Functionality
 - **Individual Reservations**: Book passengers with specific seat preferences (Window, Aisle, Center)
@@ -31,7 +31,7 @@ September 2022 - November 2022
 - Falls back to largest available seat blocks when full rows unavailable
 - Ensures entire group is seated or no one is seated (atomic operation)
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 ReservationSystem (Main Class)
@@ -46,7 +46,7 @@ ReservationSystem (Main Class)
 - **SeatRow**: Row-specific operations, adjacent seat finding
 - **Seat**: Individual seat state and passenger information
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Java JDK 8 or higher
@@ -75,7 +75,7 @@ ReservationSystem (Main Class)
    ```
 
 
-## 💻 Usage Guide
+## Usage Guide
 
 ### Main Menu Options
 ```
@@ -111,7 +111,7 @@ Enter passenger names to cancel (comma-separated): John Smith, Alice Johnson
 - **[A]vailability Chart**: Shows available seats by row and class
 - **[M]anifest**: Lists all occupied seats with passenger names
 
-## 💾 Data Persistence
+## Data Persistence
 
 The system automatically saves reservation data to a specified file in CSV format.
 
@@ -120,7 +120,7 @@ The system automatically saves reservation data to a specified file in CSV forma
 - **Auto-Load**: Previous reservations loaded automatically on startup
 - **Auto-Save**: Data saved when exiting with 'Q' option
 
-## 🔧 Error Handling
+## Error Handling
 
 The system includes robust error handling for:
 - Invalid service class entries
@@ -132,7 +132,7 @@ The system includes robust error handling for:
 - Invalid user inputs
 
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Developed as part of software engineering coursework
 - Implements UML design principles and object-oriented programming concepts
